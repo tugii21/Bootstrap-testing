@@ -1,0 +1,183 @@
+style.css
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Honk&display=swap');
+body {
+  background-color: rgb(59, 105, 146) !important;
+  }
+  nav {
+    font-family: 'Bebas Neue', sans-serif;
+  
+  }
+  .quiz-button {
+    font-family: 'Honk', system-ui, sans-serif;
+    font-size: 20px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    background-color: #87CEEB; /* Bubble-shaped button color */
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transition: background-color 0.3s, transform 0.3s;
+  }
+  .quiz-button:hover {
+    background-color: #4682B4; /* Change color on hover */
+    transform: scale(1.25); /* Enlarge by 25% on hover */
+  }
+  .quiz-button span {
+    display: block;
+    font-size: 24px; /* Large writing for the main text */
+  }
+  .question-box {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: xx-large;
+  }
+  /* Footer */
+.social-network  {
+  font-size: 160%;
+  padding: 5%;
+  color: #3A3A3A;
+}
+#menu {
+  font-size: 110%;
+  letter-spacing: 4px;
+  list-style-type: none;
+}
+#menu > li {
+  margin-bottom: 1em;
+}
+
+
+
+
+
+
+
+/*  CSS for Feedback section - Start*/
+/*  this makes required button yellow  on FEEDBACK Page*/
+.bg-yellow-200 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(254 240 138 / var(--tw-bg-opacity));
+}
+
+.container{
+    width: 100%;
+    height: 50%;
+}
+/*  position feeback section*/
+
+.max-w-3xl {
+  max-width: 48rem;
+}
+
+
+.py-8 {
+  padding-top: 2rem;
+  padding-bottom: 6rem;
+}
+
+
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.rounded-full {
+  border-radius: 33px;
+}
+.justify-center {
+  justify-content: center;
+}
+.w-full {
+  width: 25%;
+  line-height:0;
+}
+
+button, input, optgroup, select, textarea {
+  /* font-family: inherit; */
+  font-size: 100%;
+  font-weight: inherit;
+  line-height: inherit;
+  color: inherit;
+  margin: 15%;
+  padding: 0;
+  margin-bottom: 50px;
+}
+button, input, optgroup, select, textarea {
+    margin: 15%;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+.items-center {
+  align-items: center;
+}
+
+.bg-primary-500 {
+  --tw-bg-opacity: 1;
+  background-color: #0090e4;
+}
+.text-white {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+  margin-bottom: 3rem;
+}
+
+.mb-2 {
+  margin-bottom: 0.5rem;
+}
+
+.text-primary-700 {
+  --tw-text-opacity: 1;
+  color: rgb(47 38 132 / var(--tw-text-opacity));
+}
+
+.text-xl {
+  font-size: 2rem;
+ 
+}
+
+.mt-10 {
+  margin-top: 1rem;
+  
+}
+p{
+  margin: 1;
+}
+
+.font-semibold {
+  font-weight: 400;
+}
+.text-xs {
+  font-size: .75rem;
+  line-height: 1rem;
+}
+
+textarea{
+  
+  appearance: none;
+  background-color: #fff;
+  border-color: #6b7280;
+  border-width: 1px;
+  border-radius: 0;
+  padding: 0rem 0rem;
+  font-size: 1rem;
+  line-height: 1rem;
+ 
+}
+
+
+ /* CSS for padding */
+ .main-content {
+    padding-bottom: 33%; /* Adjust as needed */
+}
+.leading-6 
+{ line-height: 1; }
+
+.py-4 {
+    /* padding-top: 1.5rem!important; */
+    padding-top: 0rem!important;
+    padding-bottom: 0rem!important;
+}
+/*  CSS for Feedback section - Finished*/
+
+
